@@ -20,7 +20,7 @@ function drawApods(data) {
   let template = ''
   data.results.forEach(apod => {
     template += `<div>
-    ${apod.url}
+    ${apod.name}
     </div>`
   })
 
